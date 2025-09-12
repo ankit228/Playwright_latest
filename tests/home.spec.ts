@@ -18,7 +18,7 @@ test.describe('Home', () => {
         // click on get started button using CSS selector
         await homePage.getStartedBtn.click()
         // Verify url
-       await expect(page).toHaveURL(/.*#get-started/)
+       await expect(page).toHaveURL(/.*#get-startedd/)
     })
 
     test('Reading text', async ({ page }) => {
