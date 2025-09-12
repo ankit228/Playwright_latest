@@ -45,7 +45,7 @@ test.describe.serial('My account', () => {
     test('Access Downloads', async () => {
         await page.goto('/my-account')
         await page.locator(`li a[href*='downloads']`).click()
-        await expect(page).toHaveURL(/.*downloads/)
+        await expect(page).toHaveURL(/.*downloadss/)
     })   
 })
 
